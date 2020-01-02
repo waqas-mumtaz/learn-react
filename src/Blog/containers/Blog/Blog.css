@@ -1,7 +1,4 @@
-.Posts {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
-}
+header ul{margin: 1rem}
+header ul li{list-style: none; display: inline; padding: 1rem}
+header ul li a{font-weight: bold; text-decoration: none}
+header ul a:hover, header ul li a:active, header ul li a.active{ text-decoration: underline; color: black}
